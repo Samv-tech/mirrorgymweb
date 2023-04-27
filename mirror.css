@@ -1,0 +1,119 @@
+.heading{
+    width: 100%;
+    text-align: center;
+    background-color: brown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+.shop-now{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.logo{
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: brown;
+    line-height: 80px;
+    margin-bottom: 0;
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 80px;  
+    margin-bottom: 0; 
+}
+
+nav ul{
+    line-height: 50px;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 100px;
+}
+
+img{
+    width: 100%;
+}
+
+nav ul li a{
+    font-size: 12px;
+    color: brown;
+    cursor: pointer;
+    border-radius: 2px;
+    border-width: 1px;
+    padding: 5px 4px;
+}
+
+a:hover{
+    background-color: rgb(190, 182, 167);
+    color: black;
+    transition: 0.15s;
+}
+
+.content{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 400px;
+    left: 570px;    
+}
+
+.option1{
+    position: relative;
+    width: 140px;
+    font-size: 14px;
+    height: 48px;
+    left: 50px;
+    margin-bottom: 50px;
+    color:rgb(204, 194, 179);
+}
+
+.option2{
+    font-size: 48px;
+    font-weight: bold;
+    color:aquamarine;
+}
+
+.option3{
+    width: 250px;
+    font-size: 14px;
+    margin-bottom: 90px;
+    color:rgb(207, 199, 188);
+}
+
+.play-video{
+    padding: 10px;
+    border: none;
+    background-color: blanchedalmond;
+    transition: background-color 0.15s, color 0.15s;
+    margin-bottom: 50px;
+}
+
+.play-video:hover{
+    background-color: brown;
+    color:white;
+}
+
+.scroll{
+    color: rgb(118, 107, 138);
+    cursor:pointer;
+}
+
+.scroll:hover{
+    color:bisque;
+}
